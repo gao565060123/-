@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8764DF51C45EAC10056FA99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764DF41C45EAC10056FA99 /* main.m */; };
+		F8764DF81C45EAC10056FA99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764DF71C45EAC10056FA99 /* AppDelegate.m */; };
+		F8764DFE1C45EAC10056FA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8764DFC1C45EAC10056FA99 /* Main.storyboard */; };
+		F8764E001C45EAC10056FA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8764DFF1C45EAC10056FA99 /* Assets.xcassets */; };
+		F8764E031C45EAC10056FA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8764E011C45EAC10056FA99 /* LaunchScreen.storyboard */; };
+		F8764E0E1C45EAC10056FA99 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764E0D1C45EAC10056FA99 /* ____Tests.m */; };
+		F8764E191C45EAC10056FA99 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764E181C45EAC10056FA99 /* ____UITests.m */; };
+		F8764E2B1C45EB4E0056FA99 /* DropDownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764E281C45EB4E0056FA99 /* DropDownListView.m */; settings = {ASSET_TAGS = (); }; };
+		F8764E2C1C45EB4E0056FA99 /* DropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8764E2A1C45EB4E0056FA99 /* DropDownViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8764E2E1C45EB9A0056FA99 /* down_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8764E2D1C45EB9A0056FA99 /* down_dark.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8764E0A1C45EAC10056FA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8764DE81C45EAC10056FA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8764DEF1C45EAC10056FA99;
+			remoteInfo = "下拉菜单";
+		};
+		F8764E151C45EAC10056FA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8764DE81C45EAC10056FA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8764DEF1C45EAC10056FA99;
+			remoteInfo = "下拉菜单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8764DF01C45EAC10056FA99 /* 下拉菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下拉菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8764DF41C45EAC10056FA99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8764DF61C45EAC10056FA99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8764DF71C45EAC10056FA99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8764DFD1C45EAC10056FA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8764DFF1C45EAC10056FA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8764E021C45EAC10056FA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8764E041C45EAC10056FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8764E091C45EAC10056FA99 /* 下拉菜单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉菜单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8764E0D1C45EAC10056FA99 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		F8764E0F1C45EAC10056FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8764E141C45EAC10056FA99 /* 下拉菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8764E181C45EAC10056FA99 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		F8764E1A1C45EAC10056FA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8764E261C45EB4E0056FA99 /* DropDownChooseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownChooseProtocol.h; sourceTree = "<group>"; };
+		F8764E271C45EB4E0056FA99 /* DropDownListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownListView.h; sourceTree = "<group>"; };
+		F8764E281C45EB4E0056FA99 /* DropDownListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownListView.m; sourceTree = "<group>"; };
+		F8764E291C45EB4E0056FA99 /* DropDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownViewController.h; sourceTree = "<group>"; };
+		F8764E2A1C45EB4E0056FA99 /* DropDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownViewController.m; sourceTree = "<group>"; };
+		F8764E2D1C45EB9A0056FA99 /* down_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8764DED1C45EAC10056FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E061C45EAC10056FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E111C45EAC10056FA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8764DE71C45EAC10056FA99 = {
+			isa = PBXGroup;
+			children = (
+				F8764DF21C45EAC10056FA99 /* 下拉菜单 */,
+				F8764E0C1C45EAC10056FA99 /* 下拉菜单Tests */,
+				F8764E171C45EAC10056FA99 /* 下拉菜单UITests */,
+				F8764DF11C45EAC10056FA99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8764DF11C45EAC10056FA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8764DF01C45EAC10056FA99 /* 下拉菜单.app */,
+				F8764E091C45EAC10056FA99 /* 下拉菜单Tests.xctest */,
+				F8764E141C45EAC10056FA99 /* 下拉菜单UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8764DF21C45EAC10056FA99 /* 下拉菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				F8764E261C45EB4E0056FA99 /* DropDownChooseProtocol.h */,
+				F8764E271C45EB4E0056FA99 /* DropDownListView.h */,
+				F8764E281C45EB4E0056FA99 /* DropDownListView.m */,
+				F8764E291C45EB4E0056FA99 /* DropDownViewController.h */,
+				F8764E2A1C45EB4E0056FA99 /* DropDownViewController.m */,
+				F8764DF61C45EAC10056FA99 /* AppDelegate.h */,
+				F8764DF71C45EAC10056FA99 /* AppDelegate.m */,
+				F8764E2D1C45EB9A0056FA99 /* down_dark.png */,
+				F8764DF31C45EAC10056FA99 /* Supporting Files */,
+			);
+			path = "下拉菜单";
+			sourceTree = "<group>";
+		};
+		F8764DF31C45EAC10056FA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8764DFC1C45EAC10056FA99 /* Main.storyboard */,
+				F8764DFF1C45EAC10056FA99 /* Assets.xcassets */,
+				F8764E011C45EAC10056FA99 /* LaunchScreen.storyboard */,
+				F8764E041C45EAC10056FA99 /* Info.plist */,
+				F8764DF41C45EAC10056FA99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8764E0C1C45EAC10056FA99 /* 下拉菜单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8764E0D1C45EAC10056FA99 /* ____Tests.m */,
+				F8764E0F1C45EAC10056FA99 /* Info.plist */,
+			);
+			path = "下拉菜单Tests";
+			sourceTree = "<group>";
+		};
+		F8764E171C45EAC10056FA99 /* 下拉菜单UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8764E181C45EAC10056FA99 /* ____UITests.m */,
+				F8764E1A1C45EAC10056FA99 /* Info.plist */,
+			);
+			path = "下拉菜单UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8764DEF1C45EAC10056FA99 /* 下拉菜单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8764E1D1C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单" */;
+			buildPhases = (
+				F8764DEC1C45EAC10056FA99 /* Sources */,
+				F8764DED1C45EAC10056FA99 /* Frameworks */,
+				F8764DEE1C45EAC10056FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "下拉菜单";
+			productName = "下拉菜单";
+			productReference = F8764DF01C45EAC10056FA99 /* 下拉菜单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8764E081C45EAC10056FA99 /* 下拉菜单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8764E201C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单Tests" */;
+			buildPhases = (
+				F8764E051C45EAC10056FA99 /* Sources */,
+				F8764E061C45EAC10056FA99 /* Frameworks */,
+				F8764E071C45EAC10056FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8764E0B1C45EAC10056FA99 /* PBXTargetDependency */,
+			);
+			name = "下拉菜单Tests";
+			productName = "下拉菜单Tests";
+			productReference = F8764E091C45EAC10056FA99 /* 下拉菜单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8764E131C45EAC10056FA99 /* 下拉菜单UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8764E231C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单UITests" */;
+			buildPhases = (
+				F8764E101C45EAC10056FA99 /* Sources */,
+				F8764E111C45EAC10056FA99 /* Frameworks */,
+				F8764E121C45EAC10056FA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8764E161C45EAC10056FA99 /* PBXTargetDependency */,
+			);
+			name = "下拉菜单UITests";
+			productName = "下拉菜单UITests";
+			productReference = F8764E141C45EAC10056FA99 /* 下拉菜单UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8764DE81C45EAC10056FA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mybook;
+				TargetAttributes = {
+					F8764DEF1C45EAC10056FA99 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F8764E081C45EAC10056FA99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F8764DEF1C45EAC10056FA99;
+					};
+					F8764E131C45EAC10056FA99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F8764DEF1C45EAC10056FA99;
+					};
+				};
+			};
+			buildConfigurationList = F8764DEB1C45EAC10056FA99 /* Build configuration list for PBXProject "下拉菜单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8764DE71C45EAC10056FA99;
+			productRefGroup = F8764DF11C45EAC10056FA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8764DEF1C45EAC10056FA99 /* 下拉菜单 */,
+				F8764E081C45EAC10056FA99 /* 下拉菜单Tests */,
+				F8764E131C45EAC10056FA99 /* 下拉菜单UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8764DEE1C45EAC10056FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8764E031C45EAC10056FA99 /* LaunchScreen.storyboard in Resources */,
+				F8764E2E1C45EB9A0056FA99 /* down_dark.png in Resources */,
+				F8764E001C45EAC10056FA99 /* Assets.xcassets in Resources */,
+				F8764DFE1C45EAC10056FA99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E071C45EAC10056FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E121C45EAC10056FA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8764DEC1C45EAC10056FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8764E2B1C45EB4E0056FA99 /* DropDownListView.m in Sources */,
+				F8764DF81C45EAC10056FA99 /* AppDelegate.m in Sources */,
+				F8764DF51C45EAC10056FA99 /* main.m in Sources */,
+				F8764E2C1C45EB4E0056FA99 /* DropDownViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E051C45EAC10056FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8764E0E1C45EAC10056FA99 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8764E101C45EAC10056FA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8764E191C45EAC10056FA99 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8764E0B1C45EAC10056FA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8764DEF1C45EAC10056FA99 /* 下拉菜单 */;
+			targetProxy = F8764E0A1C45EAC10056FA99 /* PBXContainerItemProxy */;
+		};
+		F8764E161C45EAC10056FA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8764DEF1C45EAC10056FA99 /* 下拉菜单 */;
+			targetProxy = F8764E151C45EAC10056FA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8764DFC1C45EAC10056FA99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8764DFD1C45EAC10056FA99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8764E011C45EAC10056FA99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8764E021C45EAC10056FA99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8764E1B1C45EAC10056FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8764E1C1C45EAC10056FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8764E1E1C45EAC10056FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "下拉菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8764E1F1C45EAC10056FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "下拉菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8764E211C45EAC10056FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "下拉菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/下拉菜单.app/下拉菜单";
+			};
+			name = Debug;
+		};
+		F8764E221C45EAC10056FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "下拉菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/下拉菜单.app/下拉菜单";
+			};
+			name = Release;
+		};
+		F8764E241C45EAC10056FA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "下拉菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "下拉菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8764E251C45EAC10056FA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "下拉菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "company.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "下拉菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8764DEB1C45EAC10056FA99 /* Build configuration list for PBXProject "下拉菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8764E1B1C45EAC10056FA99 /* Debug */,
+				F8764E1C1C45EAC10056FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8764E1D1C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8764E1E1C45EAC10056FA99 /* Debug */,
+				F8764E1F1C45EAC10056FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8764E201C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8764E211C45EAC10056FA99 /* Debug */,
+				F8764E221C45EAC10056FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8764E231C45EAC10056FA99 /* Build configuration list for PBXNativeTarget "下拉菜单UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8764E241C45EAC10056FA99 /* Debug */,
+				F8764E251C45EAC10056FA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8764DE81C45EAC10056FA99 /* Project object */;
+}
